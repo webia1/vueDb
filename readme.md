@@ -15,7 +15,9 @@ den Titel des Readme.md file und als Beschreibung den ersten Paragraphen.
  npm i poi -D
 ```
 
-`poi` ist ein einfacher Buildmanager für Vue. Siehe details [online](https://github.com/egoist/poi)
+`poi` ist ein einfacher Buildmanager für Vue. 
+Siehe details [online](https://github.com/egoist/poi) und alle
+Plugins & Co [here](https://github.com/egoist/awesome-poi)
 
 ``` 
 npm i serve -D
@@ -28,4 +30,9 @@ npm i serve -D
  npm i vue-class-component -S
 ```
 
-Install vue
+Install vue and vue-class-component
+
+
+
+Integrate npm build scripts
+
