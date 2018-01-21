@@ -1,8 +1,9 @@
 <template>
     <div>
+        <slot name="header"></slot>
         {{ message }}
         <button @click="onClick">Und?</button>
-        <slot></slot>
+        <slot name="footer"></slot>
     </div>
 </template>
 
