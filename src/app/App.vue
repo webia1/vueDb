@@ -2,6 +2,7 @@
     <div>
         {{ message }}
         <button @click="onClick">Und?</button>
+        <slot></slot>
     </div>
 </template>
 
