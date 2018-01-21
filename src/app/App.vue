@@ -10,9 +10,15 @@
     import Vue from 'vue';
     import Component from 'vue-class-component';
 
-    @Component({})
+    @Component({
+        props: {
+            message: {
+                default: 'Dies mal von props'
+            }
+        }
+    })
     export default class App extends Vue {
-        message =  "Hallo Jungs!";
+        // message =  "Hallo Jungs!";
         onClick() {
             this.message = 'Ist das aber einfach?';
         }
