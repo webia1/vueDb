@@ -1,6 +1,7 @@
 <template>
     <div>
         {{ message }}
+        <button @click="onClick">Und?</button>
     </div>
 </template>
 
@@ -11,7 +12,10 @@
 
     @Component({})
     export default class App extends Vue {
-        message =  "Hello World!";
+        message =  "Hallo Jungs!";
+        onClick() {
+            this.message = 'Ist das aber einfach?';
+        }
     }
 
 </script>
