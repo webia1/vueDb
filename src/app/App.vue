@@ -1,9 +1,6 @@
 <template>
     <div>
-        <slot name="header"></slot>
-        {{ message }}
-        <button @click="onClick">Und?</button>
-        <slot name="footer"></slot>
+        <SomeLayout />
     </div>
 </template>
 
@@ -11,8 +8,13 @@
 
     import Vue from 'vue';
     import {Component, Prop} from 'vue-property-decorator';
+    import SomeLayout from '../layouts/SomeLayout';
 
-    @Component({})
+    @Component({
+        components: {
+            SomeLayout
+        }
+    })
     export default class App extends Vue {
         @Prop ({ default: 'Dies mal Prop Decorator'})
         message
