@@ -23,3 +23,9 @@ npm i serve -D
 
 `serve` ist ein einfacher Dev-Server, siehe [details](https://www.npmjs.com/package/serve)
 
+``` 
+ npm i vue -S
+ npm i vue-class-component -S
+```
+
+Install vue
