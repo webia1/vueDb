@@ -3,5 +3,5 @@ import App from "./app/App"
 
 new Vue({
     el: "#app",
-    render: h => <App/>
+    render: h => <App message='Data von index'/>
 })
