@@ -36,3 +36,8 @@ Install vue and vue-class-component
 
 Integrate npm build scripts
 
+``` 
+ npm i vue-property-decorator -S
+
+```
+ Install vue property decorator

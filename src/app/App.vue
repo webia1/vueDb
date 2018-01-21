@@ -9,16 +9,13 @@
 
     import Vue from 'vue';
     import Component from 'vue-class-component';
+    import {Prop} from 'vue-property-decorator';
 
-    @Component({
-        props: {
-            message: {
-                default: 'Dies mal von props'
-            }
-        }
-    })
+    @Component({})
     export default class App extends Vue {
-        // message =  "Hallo Jungs!";
+        @Prop ({ default: 'Dies mal Prop Decorator'})
+        message
+
         onClick() {
             this.message = 'Ist das aber einfach?';
         }
