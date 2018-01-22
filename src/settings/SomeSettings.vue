@@ -11,6 +11,6 @@
     Component ({})
     export default class SomeSettings extends Vue {
         header = "Some Settings Header";
-        footer = "Some Settings Footer"
+        footer = "Some Settings Footer";
     }
 </script>

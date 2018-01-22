@@ -1,0 +1,25 @@
+bd740e7 Functional templates
+6916eb1 The same with footer
+56de7d4 The same now dynamically
+4719a04 The same with ES6 destructuring assignments
+513e0f0 Using a kind of settings and exchange data between components
+30affca Layouts lokal überschreiben
+41b284e layout
+36b45f2 slot name header, footer, etc.
+ad51abc slot
+6d2a6c2 Component from vue-property-decorator
+a55caf2 Property Decorator
+6ba164d daten über props austauschen
+570299d props
+cf53f38 Button added
+8a6fb8a Hello World dynamically
+ed6a64b favicon.ico added
+95143c8 Hello World Example
+cf54193 npm build script has been created
+2997027 Installing vue and vue-class-component
+62c2bee package-lock.json is ignored
+a775cf1 Installing serve as Dev-Dependency
+c58a110 Installing poi and adding node_modules to .gitignore
+78521a6 Creating package.json
+eb7b691 00 INIT
+c9ab108 00 Init
