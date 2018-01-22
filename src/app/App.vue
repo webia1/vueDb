@@ -1,8 +1,8 @@
 <template>
     <div>
         <SomeSettings>
-            <SomeLayout slot-scope="props">
-                <h1 slot="header">{{props.header}}</h1>
+            <SomeLayout slot-scope="{header}">
+                <h1 slot="header">{{header}}</h1>
             </SomeLayout>
         </SomeSettings>
     </div>
