@@ -1,8 +1,9 @@
 <template>
     <div>
         <SomeSettings>
-            <SomeLayout slot-scope="{header}">
+            <SomeLayout slot-scope="{header, footer}">
                 <h1 slot="header">{{header}}</h1>
+                <h3 slot="footer">{{footer}}</h3>
             </SomeLayout>
         </SomeSettings>
     </div>
