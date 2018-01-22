@@ -1,9 +1,9 @@
 <template>
     <div>
         <SomeSettings>
-            <SomeLayout slot-scope="{header, footer}">
+            <SomeLayout slot-scope="{header, footer, content}">
                 <Header slot="header" :header="header"></Header>
-                <div slot="content">Content</div>
+                <Content slot="content">Content</Content>
                 <Footer slot="footer" :footer="footer"></Footer>
             </SomeLayout>
         </SomeSettings>
@@ -16,14 +16,15 @@
     import {Component, Prop} from 'vue-property-decorator';
     import SomeLayout from '../layouts/SomeLayout';
     import SomeSettings from '../settings/SomeSettings';
-    import {Header, Footer} from '../components';
+    import {Header, Footer, Content} from '../components';
 
     @Component({
         components: {
             SomeLayout,
             SomeSettings,
             Header,
-            Footer
+            Footer,
+            Content
         }
     })
     export default class App extends Vue {
