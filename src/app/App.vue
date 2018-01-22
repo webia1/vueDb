@@ -1,6 +1,8 @@
 <template>
     <div>
-        <SomeLayout />
+        <SomeLayout>
+            <h1 slot="header">Header überschrieben</h1>
+        </SomeLayout>
     </div>
 </template>
 
