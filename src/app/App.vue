@@ -1,8 +1,10 @@
 <template>
     <div>
-        <SomeLayout>
-            <h1 slot="header">Header überschrieben</h1>
-        </SomeLayout>
+        <SomeSettings>
+            <SomeLayout slot-scope="props">
+                <h1 slot="header">{{props.header}}</h1>
+            </SomeLayout>
+        </SomeSettings>
     </div>
 </template>
 
@@ -11,10 +13,12 @@
     import Vue from 'vue';
     import {Component, Prop} from 'vue-property-decorator';
     import SomeLayout from '../layouts/SomeLayout';
+    import SomeSettings from "../settings/SomeSettings";
 
     @Component({
         components: {
-            SomeLayout
+            SomeLayout,
+            SomeSettings
         }
     })
     export default class App extends Vue {
